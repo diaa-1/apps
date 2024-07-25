@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+        <link rel="stylesheet" href="admin-mob.css">
 </head>
 <body>
+   <h3> CREATE PRODUCT</h3>
     <div class="createElement">
-        <input type="text" placeholder="Name" id="productName">
+        <input type="text" placeholder="Product-name" id="productName">
         <select name="" id="productCategory">
             <option value="" disabled selected>Select Category</option>
+            <option value="Brands">Brands</option>
             <option value="Electronics">Electronics</option>
+            <option value="Sports">Sports</option>
+            <option value="Food&Drink">Food&Drink</option>
             <option value="Clothing">Clothing</option>
         </select>
         <input type="text" placeholder="Rating" id="productRating">
-        <input type="text" placeholder="Image" id="productImage">
-        <button onclick="addItems()">Placeholder</button>
+        <input type="text" placeholder="Src of image" id="productImage">
+        <button onclick="addItems()">Send</button>
     </div>
     
 </body>
